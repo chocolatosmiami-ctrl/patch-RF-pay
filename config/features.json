@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "stage": "specification_and_inventory",
+  "reference_server_version": "2.2.3.2",
+  "target_compatibility_verified": false,
+  "reference": "User-provided OwnDev price screenshot; names only, not full specifications",
+  "features": [
+    {
+      "id": "basic-type-2",
+      "name": "Basic Type 2 (Max login 2.532 Players)",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Arti paket dasar dan kapasitas belum dispesifikasikan atau diuji."
+    },
+    {
+      "id": "dungeon-time",
+      "name": "Dungeon Time",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Aturan waktu, reset, map dan penyimpanan belum diketahui."
+    },
+    {
+      "id": "potion-kill",
+      "name": "Potion Kill",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Pemicu, efek dan interaksi combat belum diketahui."
+    },
+    {
+      "id": "tower-license",
+      "name": "Tower License",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Hak penggunaan, syarat, durasi dan validasi belum diketahui."
+    },
+    {
+      "id": "guild-point",
+      "name": "Guild Point",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Sumber poin, pemakaian, reset dan hak guild belum diketahui."
+    },
+    {
+      "id": "infinite-potion",
+      "name": "Infinite Potion",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Jenis item, konsumsi, cooldown dan batas penggunaan belum diketahui."
+    },
+    {
+      "id": "player-inspector",
+      "name": "Player Inspector",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Data yang terlihat, UI dan aturan akses belum diketahui."
+    },
+    {
+      "id": "asset-encrypt",
+      "name": "Asset Encrypt",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Format aset, loader, algoritme dan pengelolaan kunci belum diketahui."
+    },
+    {
+      "id": "broadcast-message",
+      "name": "Broadcast Message",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Pemicu, penerima, format, frekuensi dan UI belum diketahui."
+    },
+    {
+      "id": "looting-magnet",
+      "name": "Looting Magnet",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Radius, kepemilikan drop, filter dan batas inventory belum diketahui."
+    },
+    {
+      "id": "war-battle",
+      "name": "War Battle",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Aturan event, scoring, hadiah dan jadwal belum diketahui."
+    },
+    {
+      "id": "player-aura",
+      "name": "Player Aura",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Efek visual, syarat aktivasi dan sinkronisasi belum diketahui."
+    },
+    {
+      "id": "7-day-vip-login",
+      "name": "7-Day VIP Login",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Definisi hari, VIP, hadiah, reset dan klaim belum diketahui."
+    },
+    {
+      "id": "guild-skill",
+      "name": "Guild Skill",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Daftar skill, biaya, level, efek dan persistensi belum diketahui."
+    },
+    {
+      "id": "auction-cash",
+      "name": "Auction Cash",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Aturan lelang, mata uang, fee dan settlement belum diketahui."
+    },
+    {
+      "id": "enchant-protector",
+      "name": "Enchant Protector",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Efek perlindungan, probabilitas, konsumsi dan kegagalan belum diketahui."
+    },
+    {
+      "id": "automine-manager",
+      "name": "AutoMine Manager",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Aturan penambangan, eligibility, reward dan durasi belum diketahui."
+    },
+    {
+      "id": "transfer-limit",
+      "name": "Transfer Limit",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Objek transfer, periode, batas dan pengecualian belum diketahui."
+    },
+    {
+      "id": "season-pass",
+      "name": "Season Pass",
+      "status": "pending_specification",
+      "enabled": false,
+      "integration_verified": false,
+      "open_questions": "Misi, progres, tier, premium, hadiah dan pergantian musim belum diketahui."
+    }
+  ]
+}
