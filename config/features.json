@@ -11,7 +11,14 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Target pengguna 2532 concurrent players, sesuai screenshot referensi. Batas aktif, lisensi, pool/index pemain dan hasil load test belum terverifikasi."
+      "open_questions": "Loader native membaca LimUserNum dengan default/clamp 2532; INI unggahan bernilai 1337. Konfigurasi efektif, batas guard/lisensi, pemakaian field, pool/index pemain dan hasil load test belum terverifikasi.",
+      "capacity_evidence": {
+        "uploaded_ini_limit": 1337,
+        "native_config_default": 2532,
+        "native_config_upper_clamp": 2532,
+        "method": "Static PE import resolution and x64 disassembly, not runtime testing",
+        "report": "docs/WORLDSYSTEM_ANALYSIS.md"
+      }
     },
     {
       "id": "dungeon-time",
