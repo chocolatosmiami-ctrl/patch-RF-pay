@@ -3,7 +3,7 @@
   "stage": "specification_and_inventory",
   "reference_server_version": "2.2.3.2",
   "target_compatibility_verified": false,
-  "reference": "User-provided OwnDev price screenshot; names only, not full specifications",
+  "reference": "User-provided OwnDev screenshots and INI analysis; partial behavior specifications only",
   "features": [
     {
       "id": "basic-type-2",
@@ -11,7 +11,7 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Arti paket dasar dan kapasitas belum dispesifikasikan atau diuji."
+      "open_questions": "Target pengguna 2232 concurrent players; screenshot referensi menyebut 2532. Batas aktif, lisensi, pool/index pemain dan hasil load test belum terverifikasi."
     },
     {
       "id": "dungeon-time",
@@ -19,7 +19,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Aturan waktu, reset, map dan penyimpanan belum diketahui."
+      "open_questions": "Aturan waktu, reset, map dan penyimpanan belum diketahui.",
+      "reference_behavior": "Pemain hanya dapat masuk dungeon pada waktu yang ditentukan.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "potion-kill",
@@ -27,7 +29,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Pemicu, efek dan interaksi combat belum diketahui."
+      "open_questions": "Pemicu, efek dan interaksi combat belum diketahui.",
+      "reference_behavior": "Membunuh pemain lain tanpa menyerang langsung; mekanisme, item dan batas gameplay belum dijelaskan.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "tower-license",
@@ -35,7 +39,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Hak penggunaan, syarat, durasi dan validasi belum diketahui."
+      "open_questions": "Hak penggunaan, syarat, durasi dan validasi belum diketahui.",
+      "reference_behavior": "Pemain dapat menggunakan Guard Tower ketika memiliki item yang disyaratkan.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "guild-point",
@@ -43,7 +49,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Sumber poin, pemakaian, reset dan hak guild belum diketahui."
+      "open_questions": "Sumber poin, pemakaian, reset dan hak guild belum diketahui.",
+      "reference_behavior": "Menambahkan poin peringkat guild khusus berdasarkan aturan yang dapat dikonfigurasi.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "infinite-potion",
@@ -51,7 +59,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Jenis item, konsumsi, cooldown dan batas penggunaan belum diketahui."
+      "open_questions": "Jenis item, konsumsi, cooldown dan batas penggunaan belum diketahui.",
+      "reference_behavior": "Penggunaan potion tanpa batas; konsumsi, cooldown dan durasi belum dijelaskan.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "player-inspector",
@@ -59,7 +69,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Data yang terlihat, UI dan aturan akses belum diketahui."
+      "open_questions": "Data yang terlihat, UI dan aturan akses belum diketahui.",
+      "reference_behavior": "Melihat equipment dan mata uang pemain lain.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "asset-encrypt",
@@ -67,7 +79,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Format aset, loader, algoritme dan pengelolaan kunci belum diketahui."
+      "open_questions": "Format aset, loader, algoritme dan pengelolaan kunci belum diketahui.",
+      "reference_behavior": "Mengenkripsi file aset game; format dan integrasi loader belum ditentukan.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "broadcast-message",
@@ -75,7 +89,9 @@
       "status": "pending_specification",
       "enabled": false,
       "integration_verified": false,
-      "open_questions": "Pemicu, penerima, format, frekuensi dan UI belum diketahui."
+      "open_questions": "Pemicu, penerima, format, frekuensi dan UI belum diketahui.",
+      "reference_behavior": "Mengirim pesan ke seluruh pemain, ras tertentu, atau pemain pada map tertentu.",
+      "behavior_source": "User-provided image(7).png, 2026-10-24"
     },
     {
       "id": "looting-magnet",
@@ -157,5 +173,7 @@
       "integration_verified": false,
       "open_questions": "Misi, progres, tier, premium, hadiah dan pergantian musim belum diketahui."
     }
-  ]
+  ],
+  "requested_concurrent_players": 2232,
+  "capacity_verified": false
 }
