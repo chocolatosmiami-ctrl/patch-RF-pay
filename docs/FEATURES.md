@@ -33,3 +33,20 @@ Untuk setiap modul: tentukan perilaku, client/server yang berubah, penyimpanan, 
 ## Bukti konfigurasi tambahan
 
 Lihat [pemetaan delapan INI](CONFIG_ANALYSIS.md). Status katalog tetap `pending_specification` karena aturan belum lengkap; tidak ada fitur proyek yang telah diintegrasikan atau diuji pada game.
+
+## Deskripsi delapan fitur dari screenshot 24 Oktober 2026
+
+Ini kebutuhan produk, belum implementasi game. Target kapasitas yang dikonfirmasi pengguna adalah **2232 pemain bersamaan**, sedangkan label paket pada screenshot menyebut 2532. Target pengguna dipertahankan; tidak ada kapasitas yang telah diuji.
+
+| Fitur | Perilaku tertulis pada screenshot | Rincian yang masih diperlukan |
+| --- | --- | --- |
+| Dungeon Time | Akses masuk dungeon hanya pada jadwal tertentu | Zona waktu, batas interval, map dan sesi yang sedang berjalan |
+| Potion Kill | Membunuh pemain lain tanpa menyerang langsung | Item/pemicu, target, radius, race, safe zone, cooldown, reward/penalti |
+| Tower License | Guard Tower dapat dipakai jika memiliki item syarat | ID item, konsumsi, durasi, batas kepemilikan dan validasi server |
+| Guild Point | Menambah poin peringkat guild berdasarkan aturan konfigurasi | Aturan event, persistensi, unit waktu dan pencegahan event ganda |
+| Infinite Potion | Penggunaan potion tanpa batas | Apakah jumlah item tidak berkurang, jenis potion, cooldown dan durasi |
+| Player Inspector | Memeriksa equipment dan mata uang pemain lain | Field, UI, jarak/otorisasi dan protokol respons server |
+| Asset Encrypt | Enkripsi file aset game | Format/loader aktual, kompatibilitas client, kunci dan pembaruan |
+| Broadcast Message | Pesan ke seluruh pemain, ras tertentu, atau map tertentu | Kanal UI, format, pemicu, izin operator dan pembatasan frekuensi |
+
+Delapan fitur sudah termasuk cakupan 19 komponen; screenshot menambah deskripsi, bukan delapan modul baru. Implementasi memerlukan source/SDK atau titik integrasi yang terbukti dan client yang cocok. INI saja tidak menetapkan ABI, format paket maupun event handler. Tidak ada EXE/DLL patch baru yang dihasilkan dari pembaruan cakupan ini.
