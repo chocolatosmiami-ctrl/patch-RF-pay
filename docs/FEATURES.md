@@ -36,7 +36,7 @@ Lihat [pemetaan delapan INI](CONFIG_ANALYSIS.md). Status katalog tetap `pending_
 
 ## Deskripsi delapan fitur dari screenshot 24 Oktober 2026
 
-Ini kebutuhan produk, belum implementasi game. Target kapasitas yang dikonfirmasi pengguna adalah **2232 pemain bersamaan**, sedangkan label paket pada screenshot menyebut 2532. Target pengguna dipertahankan; tidak ada kapasitas yang telah diuji.
+Ini kebutuhan produk, belum implementasi game. Target kapasitas yang dikoreksi dan dikonfirmasi pengguna adalah **2532 pemain bersamaan**, sesuai label paket pada screenshot. Tidak ada kapasitas yang telah diuji.
 
 | Fitur | Perilaku tertulis pada screenshot | Rincian yang masih diperlukan |
 | --- | --- | --- |
