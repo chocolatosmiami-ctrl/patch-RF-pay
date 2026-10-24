@@ -6,8 +6,9 @@ Proyek pengembangan modul RF Online dengan implementasi sendiri. REA digunakan u
 
 **Tahap awal: spesifikasi dan inventarisasi. Belum ada patch game atau DLL siap pakai.** Tidak ada modul yang dinyatakan selesai, batas pemain yang telah diuji, atau kompatibilitas client/server yang sudah dibuktikan.
 
-Target referensi dokumentasi adalah RF server **2.2.3.2**; versi file pengguna belum diperiksa. Basic Type 2 / 2.532 pemain adalah label paket referensi, bukan hasil uji kapasitas proyek ini.
+Target referensi dokumentasi adalah RF server **2.2.3.2**; versi distribusi file pengguna belum terbukti. ODZone/SnooperGS EXE telah diidentifikasi x64; identifikasi ini tidak membuktikan versi RF atau kesiapan runtime. Basic Type 2 / 2.532 pemain adalah label paket referensi, bukan hasil uji kapasitas proyek ini.
 
+- [Studi cara menjalankan server dan verifikasi baseline](docs/SERVER_RUNBOOK.md)
 - [Cakupan 19 komponen](docs/FEATURES.md)
 - [Analisis dokumentasi dan rancangan awal](docs/ARCHITECTURE.md)
 - [Langkah berikutnya dengan Codex dan REA](docs/NEXT_STEPS.md)
